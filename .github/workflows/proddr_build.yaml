@@ -22,6 +22,7 @@ jobs:
       -
         name: pull secrets
         run: |
+          mkdir robot
           touch robot/bke-vo-auto_prod.txt
           touch robot/bke-vo-auto_dr.txt
           echo "$VO_HARBOR_ROBOT" > robot/bke-vo-auto_prod.txt
