@@ -3,6 +3,9 @@ on:
   push:
     branches:
       qa
+    paths:
+      - '**'
+      - '!**.md'
 env:
   QVO_HARBOR_ROBOT: ${{ secrets.QVO_HARBOR_ROBOT }}
 

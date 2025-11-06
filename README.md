@@ -21,3 +21,5 @@ Images are available from harbor at:
 
 * harbor.services.brown.edu/library/jec-uv
 * harbor.services.brown.edu/library/jec-python
+
+Use the images location in your `deployment.yaml` file.
