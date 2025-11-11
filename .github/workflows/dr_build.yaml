@@ -8,7 +8,7 @@ env:
 
 jobs:
   Building_QA_Brown_JEC_image:
-    runs-on: [self-hosted, qa-ghrunner]
+    runs-on: [self-hosted, ghrunner]
     steps:
       -
         name: Checkout
