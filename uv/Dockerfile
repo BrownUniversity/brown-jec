@@ -17,4 +17,5 @@ RUN mkdir -p /var/log/jec && \
     mkdir -p /var/tmp/jec && \
     chown -R jec:jec /var/tmp/jec
 USER jec
+ENV UV_CACHE_DIR=/var/tmp/jec/.cache/uv
 ENTRYPOINT ["/opt/jec"]
