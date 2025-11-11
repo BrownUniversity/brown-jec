@@ -7,7 +7,7 @@ env:
   DRVO_HARBOR_ROBOT: ${{ secrets.DRVO_HARBOR_ROBOT }}
 
 jobs:
-  Building_QA_Brown_JEC_image:
+  Building_DR_Brown_JEC_image:
     runs-on: [self-hosted, ghrunner]
     steps:
       -

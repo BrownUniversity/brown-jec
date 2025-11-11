@@ -7,7 +7,7 @@ env:
   VO_HARBOR_ROBOT: ${{ secrets.VO_HARBOR_ROBOT }}
 
 jobs:
-  Building_QA_Brown_JEC_image:
+  Building_Prod_Brown_JEC_image:
     runs-on: [self-hosted, ghrunner]
     steps:
       -
